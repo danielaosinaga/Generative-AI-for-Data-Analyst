@@ -1,0 +1,20 @@
+This project aims to produce a comprehensive portfolio showcasing of Generative AI in data science. 
+
+#INSTRUCTIONS
+1) Identify the top 5 coffee producing countries of the world
+2) Create a table containing their coffee production volume, population size and their annual GDP, then bring this table into Excel.
+prompts 1 y 2:
+Create a dummy dataset with the following fields rank, country, coffee production(2021, in metric tons), population(2021), GDP(2021, billion in USD). 
+I want this dataset to contain top 5 coffee producing countries of the world.
+
+3) With the help of Copilot, use formulas in Excel to calculate for each country:
+  a) the normalized coffee production (in kg)
+  b) the GDP per capita 
+prompts a) y b):
+I am looking to add two new columns to this dataset: Normalized coffee production (in kg) and GDP per Capita. Could you show me two formula within excel to calculate: 
+1) Normalized coffee production(in kg) and 2) GDP per capita
+
+  c) the correlation coefficient between coffee production and GDP per capita
+prompts c)
+I would like to calculate the correlation coefficient between normalized coffee production (in kg) (cells F11:F15) and GDP per capita (cells G11:G15)
+show me a formula for to do this.
